@@ -1,0 +1,25 @@
+{
+  "name": "mini-shop",
+  "version": "1.0.0",
+  "description": "فروشگاه اموزش فرانت",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass":"sass style.scss style.css --watch",
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahsa-niakani/mini-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahsa-niakani/mini-shop/issues"
+  },
+  "homepage": "https://github.com/mahsa-niakani/mini-shop#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}
